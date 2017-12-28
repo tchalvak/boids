@@ -16,8 +16,8 @@
   "description": "ERROR: No README.md file found!",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node_modules/.bin/browserify www/js/demo.js -o bundle.js",
-    "start": "node_modules/.bin/beefy www/js/demo.js:bundle.js"
+    "prepublish": "node_modules/.bin/browserify www/js/demo.js -o www/js/bundle.js",
+    "start": "node_modules/.bin/beefy www/js/demo.js:www/js/bundle.js"
   },
   "repository": {
     "type": "git",
